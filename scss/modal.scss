@@ -1,0 +1,60 @@
+.modal {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* animation: fadeIn 2s; */
+  /* animation-timing-function: ease-in-out; */
+
+  .bg-click {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .callout {
+    position: relative;
+    z-index: 99;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    form {
+      height: 350px;
+      width: 350px;
+      display: flex;
+      //   align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+
+      h3 {
+        font-size: 25px;
+      }
+
+      #callout-text,
+      #password-text {
+        width: 100%;
+        height: 40px;
+        padding-left: 6px;
+        font-size: 25px;
+        margin-bottom: 35px;
+      }
+
+      #submit {
+        font-size: 20px;
+        padding: 5px;
+        margin-top: -10px;
+      }
+    }
+  }
+}

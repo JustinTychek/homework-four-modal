@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav><a href="#/home">HOME</a>
+        <a href="#/about">ABOUT</a>
+        <a id="showModal" href="#">SIGN IN</a>
+    </nav>
+
+    <div id="app"></div>
+
+    <div class="modal">
+        <div class="bg-click"></div>
+        <div class="callout">
+            <form action="">
+                <h3>Enter Your Username</h3>
+                <input id="callout-text" type="text">
+                <h3>Enter Your Password</h3>
+                <input id="password-text" type="text">
+                <input id="submit" type="submit" value="Login">
+            </form>
+
+        </div>
+    </div>
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="app/model.js"></script>
+    <script src="app/app.js"></script>
+</body>
+
+</html>

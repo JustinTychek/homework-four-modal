@@ -1,0 +1,59 @@
+.home {
+  width: 100%;
+  height: calc(100vh - 50px);
+  //   height: 100vh;
+  background-image: url(../images/home-background.jpg);
+  background-size: 1600px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+
+  .home-text {
+    margin-left: 120px;
+    width: 410px;
+
+    h1 {
+      font-size: 120px;
+      margin-bottom: -15px;
+      color: #333069;
+    }
+
+    h2 {
+      font-size: 35px;
+      margin-bottom: 40px;
+      color: #333069;
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      color: #333069;
+    }
+
+    h1,
+    h2,
+    p {
+    }
+
+    .join-now {
+      text-decoration: none;
+      color: white;
+      background-color: #333069;
+      padding: 10px 25px;
+      border-radius: 25px;
+    }
+
+    .join-now:hover {
+      background-color: white;
+      color: #333069;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    .home-text {
+      margin-left: 40px;
+    }
+  }
+}
